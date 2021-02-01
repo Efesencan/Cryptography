@@ -125,6 +125,6 @@ key.theta = 26-(key.gamma*key.beta)%26 # you can compute decryption key from enc
 ptext = "Hello Crypto World"
 ctext = Affine_Enc(ptext, key)
 dtext = Affine_Dec(ctext, key)
-print("plaintext: ", ptext)
-print("ciphertext: ", ctext)
-print("plaintext: ", dtext)
+#print("plaintext: ", ptext)
+#print("ciphertext: ", ctext)
+#print("plaintext: ", dtext)
